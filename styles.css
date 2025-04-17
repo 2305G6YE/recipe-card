@@ -1,0 +1,33 @@
+body {
+    font-family: "Georgia", "Times-New-Roman", serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: #dfe6e9;
+}
+
+.menu-container {
+    background-color: #b2bec3;
+    display: flex;
+}
+
+.menu {
+    width: 100vmax;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 0px 20px;
+}
+
+.contact {
+    margin-left: auto;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+.recipe-card-container {
+    background-color: #636e72;
+    display: flex;
+    align-items: stretch;
+}
