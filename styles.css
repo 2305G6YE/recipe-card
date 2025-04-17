@@ -2,7 +2,8 @@ body {
     font-family: "Georgia", "Times-New-Roman", serif;
     font-size: 30px;
     box-sizing: border-box;
-    background-color: #dfe6e9;
+    background-color: #2d3436;
+    margin: 0;
 }
 
 .menu-container {
@@ -15,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    margin: 0px 20px;
+    margin: 0px 40px;
 }
 
 .contact {
@@ -27,7 +28,64 @@ body {
 }
 
 .recipe-card-container {
-    background-color: #636e72;
     display: flex;
-    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    margin-top: 40px;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four,
+.card-five {
+    width: 40vmax;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.header,
+.description,
+.items   {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.card-one {
+    background-color: #55efc4;
+}
+
+.card-two {
+    background-color: #81ecec;
+}
+
+.card-three {
+    background-color: #74b9ff;
+}
+
+.card-four {
+    background-color: #a29bfe;
+}
+
+.card-five {
+    background-color: #ffeaa7;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid black;
+    height: 20px;
+    background-color: #b2bec3;
+    flex: 1;
+}
+
+.footer-two {
+    flex: 2;
 }
