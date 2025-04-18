@@ -1,3 +1,10 @@
+/* Debugging Purpose 
+* {
+    border: 1px solid red;
+}
+
+*/
+
 body {
     font-family: "Georgia", "Times-New-Roman", serif;
     font-size: 30px;
@@ -45,12 +52,11 @@ body {
     width: 300px;
     border: 1px solid black;
     border-radius: 25px;
-    height: 600px;
+    height: 700px;
 }
 
 .header,
-.description,
-.items   {
+.description {
     display: flex;
     justify-content: center;
     font-size: 25px;
@@ -110,3 +116,29 @@ img {
     width: 300px;
 }
   
+.list-container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+}
+
+.items h5 {
+    font-size: 22px;
+    align-self: center;
+}
+
+
+
+.list-container h4 {
+    margin: 15px 40px 0px;
+}
+
+
+.list-container h4,
+ul {
+    font-size: 10px;
+}
