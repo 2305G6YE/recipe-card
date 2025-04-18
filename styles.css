@@ -52,7 +52,7 @@ body {
     width: 300px;
     border: 1px solid black;
     border-radius: 25px;
-    height: 700px;
+    height: 680px;
 }
 
 .header,
@@ -64,7 +64,7 @@ body {
 }
 
 .description-content {
-    margin: 0px 5px;
+    margin: 0px 20px;
 }
 
 .card-one {
@@ -113,7 +113,8 @@ p {
 }
 
 img {
-    width: 300px;
+    width: 260px;
+    margin: 0px 20px;
 }
   
 .list-container {
@@ -129,6 +130,7 @@ img {
 .items h5 {
     font-size: 22px;
     align-self: center;
+    margin-left: 20px;
 }
 
 
@@ -140,5 +142,6 @@ img {
 
 .list-container h4,
 ul {
-    font-size: 10px;
+    font-size: 12px;
+    margin-right: 20px;
 }
